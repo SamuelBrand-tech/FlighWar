@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518398211124",
+    "firebase_url": "https://flighwar.firebaseio.com",
+    "project_id": "flighwar",
+    "storage_bucket": "flighwar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518398211124:android:2c8513367fdab9d38b0661",
+        "android_client_info": {
+          "package_name": "com.example.flighwar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518398211124-kvul84j40d3rra5ivqsdejd5qu4stlir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flighwar",
+            "certificate_hash": "807f439a596ab1e3c5b23617fb2bd82ae7fd41c6"
+          }
+        },
+        {
+          "client_id": "518398211124-v9065aujt9mp7kbfi3qosbbcd7d66kn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAky8kzXrDXNRrSmMbKnnYo3H4fkShVpHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518398211124-v9065aujt9mp7kbfi3qosbbcd7d66kn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

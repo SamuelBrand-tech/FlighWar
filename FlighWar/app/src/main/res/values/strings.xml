@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FLIGHT WAR</string>
+    <string name="welcome">WELCOME</string>
+    <string name="play">Play</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="highScore">High Score</string>
+    <string name="scoreBoard">Score Board</string>
+    <string name="youScore">Your Score:</string>
+    <string name="goBack">Exit</string>
+    <string name="haveAccount">Have an account</string>
+    <string name="login">LOGIN</string>
+    <string name="settings">settings</string>
+    <string name="tapLeft">Flight</string>
+    <string name="tapRight">Shoot</string>
+</resources>
