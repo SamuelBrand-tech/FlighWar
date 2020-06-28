@@ -1,0 +1,37 @@
+<!-- <Button text="login works!" class="btn btn-primary"></Button> -->
+<FlexboxLayout class="page">
+    <StackLayout class="form">
+        <Image src="~/app/images/exercise.png" class="logo"></Image>
+        <Label class="header" text="LetsPlay"></Label>
+
+        <GridLayout rows="auto, auto, auto">
+            <StackLayout row="0" class="input-field">
+                <TextField hint="Email or Phone" class="input input-border input-login" backgroundColor="#e7e7e7"
+                keyboardType="email" [(ngModel)]="user.email"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+            <StackLayout row="1" class="input-field">
+                <TextField hint="Password" secure="true" class="input input-border input-login"
+                    backgroundColor="#e7e7e7"  [(ngModel)]="user.password"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+
+            </StackLayout>
+
+            <StackLayout row="2" *ngIf="!isLoggingIn" class="input-field">
+                <TextField hint="Confirm Password" secure="true" class="input input-border input-login"
+                    backgroundColor="#e7e7e7"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+
+            </StackLayout>
+
+            <ActivityIndicator rowSpan="3" [busy]="processing"></ActivityIndicator>
+
+        </GridLayout>
+
+        <Button [text]="isLoggingIn ? 'Log In' : 'Sign Up'" [isEnabled]="!processing" class="btn btn-primary m-t-20" (tap) = 'submit()'></Button>
+        
+        <Button [text]="singUp ? 'Sing Up' : 'Register'" [nsRouterLink]="['/register']" class="btn btn-primary btn-sign-up"></Button>
+    </StackLayout>
+
+</FlexboxLayout>
